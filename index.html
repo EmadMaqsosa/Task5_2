@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/focal-x.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Emad Maqsosa_#Task5_2</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./assets/img/focal-x.jpg" alt="focal-x agency" class="pic">
+        <div class="box">
+            <h1>Convert Units</h1>
+            <input type="number" id="value">
+            <h3>Convert from:</h3>
+            <select class="con_from">
+                <option>Choose Unit</option>
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="km">km</option>
+            </select>
+            <h3>to:</h3>
+            <select class="con_to">
+                <option>Choose Unit</option>
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="km">km</option>
+            </select>
+            <button onclick="convert()" class="btn_convert">Convert</button>
+            <h2>Result is:</h2>
+            <span id="result"></span>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
